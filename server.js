@@ -8,6 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.status(200).json({
+        //rodando na 3000 Pai
         message: "Servidor tá rodando mano",
         endpoints: {
             root: "GET /",
@@ -24,7 +25,6 @@ app.get('/status', (req, res) => {
     });
 });
 
-//rodando na 3000 Pai
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT} `);
 });
