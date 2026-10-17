@@ -1,0 +1,13 @@
+{
+  "name": "servidor-node-entregavel",
+  "version": "1.0.0",
+  "description": "Servidor Node.js com Express respondendo a GET / e GET /status",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
